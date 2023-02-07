@@ -28,17 +28,11 @@ LinuxのCの開発環境がインストールされているものとしてお�
 # makefileのmake のコマンド
 
     $ make             # 静的ライブラリlibgetch.aを作成する
-
     $ make main        # 実行ファイルを作成
-
     $ make install     # 静的ライブラリとヘッダファイルを当該ディレクトリにインストール
-
     $ make clean       # オブジェクトファイル削除、静的ライブラリlibgetch.aを削除
-
     $ make all         # オブジェクをファイルを削除、静的ライブラリ削除、
-    
-                       # また作成、実行ファイル作成、静的ライブラリとヘッダファイルを
-                      
+                       # また作成、実行ファイル作成、静的ライブラリとヘッダファイルを                  
                        # 当該ディレクトリにインストール
 
 注意点
@@ -52,35 +46,19 @@ A.oをB.aの前に引数で与えなくてはなりません。
 # make allの実行をした結果のディレクトリ構造
 
     /home/user/
-    
     ├── getch　　　　　　# カレントディレクトリ
-    
     │   ├── getch.c
-    
     │   ├── getch.h
-    
     │   ├── getch.o
-    
     │   ├── kbhit.c
-    
     │   ├── kbhit.o
-    
     │   ├── libgetch.a
-    
     │   ├── main
-    
     │   ├── main.c
-    
     │   ├── main.o
-    
     │   ├── Makefile
-    
     │   └── makefile
-    
     ├── include
-    
     │   └── getch.h
-    
     └── lib
-    
-    └── libgetch.a
+        └── libgetch.a
