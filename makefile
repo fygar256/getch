@@ -68,4 +68,4 @@ clean:
     $(RM) -rf $(OBJS) $(LIBNAME)
 
 # make all とすると最初からやる
-all: clean $(MAIN)
+all: clean inc $(MAIN)
