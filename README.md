@@ -23,7 +23,9 @@ LinuxのCの開発環境がインストールされているものとしてお�
     │   ├── Makefile   # 実行ファイルを作るだけのためのmakefile
     │   └── makefile   # libgetch.aと実行ファイルを作るためのmakefile
     ├── include        # ユーザー用インクルードディレクトリ
-    └── lib            # ユーザー用ライブラリディレクトリ
+    ├── lib            # ユーザー用ライブラリディレクトリ
+    ：
+    ：
 
 # makefileのmake のコマンド
 
@@ -61,5 +63,6 @@ A.oをB.aの前に引数で与えなくてはなりません。
     │   └── makefile
     ├── include
     │   └── getch.h
-    └── lib
-        └── libgetch.a
+    ├── lib
+    :   └── libgetch.a
+    :
