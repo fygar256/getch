@@ -55,7 +55,7 @@ $(MAIN): $(MAIN)$(OSUFFIX) $(LIBNAME) install
     $(CC) -o $(MAIN) $(MAIN)$(OSUFFIX) $(CFLAGS) $(LIBS) $(LDFLAGS)
 
 # make incとすると、ヘッダフィルを当該ディレクトリにインストール
-#                         ディレクトリのアクセス権をセット
+#
 inc: $(HEADER)
     $(CP) $(HEADER) $(INCDIR)
 
