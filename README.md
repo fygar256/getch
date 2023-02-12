@@ -28,6 +28,7 @@ LinuxのCの開発環境がインストールされているものとしてお�
 # makefileのmake のコマンド
 
     $ make             # 静的ライブラリlibgetch.aを作成する
+    $ make inc         # ヘッダファイルをインクルードディレクトリにインストール
     $ make main        # 実行ファイルを作成
     $ make install     # 静的ライブラリとヘッダファイルを当該ディレクトリにインストール
     $ make clean       # オブジェクトファイル削除、静的ライブラリlibgetch.aを削除
